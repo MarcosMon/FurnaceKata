@@ -3,6 +3,7 @@ package org.lasencinas.Furnace.tipos;
 public class RoomTemperature {
 
 	private static RoomTemperature instance = null;
+	private double temperature = 0d;
 
 	private RoomTemperature() {
 	}
@@ -16,6 +17,17 @@ public class RoomTemperature {
 		}
 
 		return instance;
+	}
+
+	public double getTemperature() {
+
+		return this.temperature;
+	}
+
+	public void setTemperature(double temperature) {
+
+		this.temperature = temperature;
+
 	}
 
 }
