@@ -29,5 +29,10 @@ public class RoomTemperature {
 		this.temperature = temperature;
 
 	}
+	
+	public void modifyTemperature(double grados ) {
+		
+		this.temperature+=grados;
+	}
 
 }

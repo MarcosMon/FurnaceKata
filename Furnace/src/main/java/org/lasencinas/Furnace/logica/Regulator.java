@@ -1,5 +1,7 @@
 package org.lasencinas.Furnace.logica;
 
+import org.lasencinas.Furnace.main.Heater;
+import org.lasencinas.Furnace.main.Thermometer;
 import org.lasencinas.Furnace.tipos.RoomTemperature;
 
 public class Regulator {
